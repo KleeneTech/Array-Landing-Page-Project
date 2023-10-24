@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.body {
+  overflow-x: hidden;
+}
+.hero-section {
+  background-color: rgb(245, 252, 252);
+  font-family: Raleway, sans-serif;
+  overflow-x: hidden;
+}
+
+.hero-section-div {
+  background-image: url(images/bg-hero-desktop.svg);
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  max-width: 150px;
+  margin-left: 2.5rem;
+}
+
+.btn {
+  margin: 50px;
+}
+.btn button {
+  font-weight: bold;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 100px;
+  padding: 10px;
+  background-color: white;
+  width: 200px;
+  height: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn button:hover {
+  background-color: brown;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  max-height: 60vh;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  overflow-x: hidden;
+}
+
+.header-div h1 {
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 10px;
+}
+
+.header-div p {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-bottom: 40px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+}
+
+.mockup img {
+  max-width: 50vw;
+  max-height: 50vh;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.header-div button {
+  font-weight: bold;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 100px;
+  padding: 10px;
+  color: white;
+  background-color: brown;
+  width: 250px;
+  height: 60%;
+  cursor: pointer;
+  transition: 0.5s;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 1.9rem;
+  letter-spacing: 0.01em;
+}
+
+.header-div button:hover {
+  background-color: black;
+  transition: 0.4s;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  height: 100%;
+  margin: 3rem 3rem;
+  background-color: white;
+  padding: 5rem;
+  border-radius: 20px;
+  font-family: Playfair, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(133, 133, 133, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow-x: hidden;
+}
+
+.section1-div h1 {
+  font-size: 2.3rem;
+  margin-right: 40px;
+}
+
+.section1-div p {
+  line-height: 30px;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  height: 100%;
+  margin: 3rem 3rem;
+  background-color: rgb(247, 250, 252);
+  border: 1px solid whitesmoke;
+  padding: 5rem;
+  border-radius: 20px;
+  font-family: Playfair, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(139, 139, 139, 0.2),
+    0 6px 20px 0 rgba(141, 141, 141, 0.19);
+}
+
+.section2-div h1 {
+  font-size: 2.3rem;
+  margin-right: 40px;
+}
+
+.section2-div p {
+  line-height: 30px;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  height: 100%;
+  flex: 1;
+  margin: 3rem 3rem;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: Playfair, sans-serif;
+}
+
+.section3-div h1 {
+  font-size: 2.3rem;
+}
+
+.section3-div p {
+  line-height: 30px;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+}
+
+.section4 {
+  position: relative;
+  max-width: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 60px 0px;
+  border-radius: 20px;
+  margin-bottom: -120px;
+  font-family: Raleway, sans-serif;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(223, 223, 223, 0.19);
+}
+
+.section4 h1 {
+  margin-bottom: 15px;
+  letter-spacing: 0.05em;
+}
+
+.section4 button {
+  margin-top: 20px;
+  padding: 24px 50px;
+  border: none;
+  background-color: brown;
+  border-radius: 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(0, 0, 54);
+  color: white;
+  bottom: 0;
+  left: 0;
+  font-family: Raleway, sans-serif;
+}
+
+.heading img {
+  max-width: 200px;
+  margin-top: 130px;
+  padding-left: 10px;
+}
+
+.footer .content {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.5rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+}
+
+.footer .content p {
+  margin-bottom: 1.5rem;
+}
+
+.footer .content a {
+  text-decoration: none;
+  color: #fefefe;
+  transition: 0.5s;
+}
+
+.footer .content a:hover {
+  border-bottom: 1px solid brown;
+}
+
+.footer .content h4 {
+  margin-bottom: 1.3rem;
+  font-size: 1rem;
+  background-color: brown;
+  max-width: 100px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 40px;
+}
+
+.parag {
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .footer .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 4rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer .content,
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .footer {
+    position: unset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section1,
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  .main-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .section4 h1 {
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .section4 button {
+    padding: 10px 20px;
+    border: none;
+    background-color: brown;
+    border-radius: 40px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    max-width: 200px;
+    max-height: 50px;
+    cursor: pointer;
+  }
+  .footer .content h4 {
+    font-size: 16px;
+  }
+  .mockup img {
+    max-width: 100%;
+    height: 100%;
+  }
+  .header-div button {
+    max-width: 100%;
+    font-size: 16px;
+    padding: 1rem;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  .section2 h1 {
+    font-size: 25px;
+    margin: 20px;
+    padding: 5px;
+  }
+  .section2 p {
+    font-size: 20px;
+    padding: 6px;
+    margin: 20px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
