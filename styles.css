@@ -284,6 +284,22 @@ img {
     font-size: 20px;
     margin: 4rem;
   }
+  .btn {
+    margin: 30px;
+  }
+  .btn button {
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: brown;
+    width: 100px;
+    height: 25%;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
